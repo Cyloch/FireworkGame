@@ -22,7 +22,7 @@ tool.Activated:Connect(function()
 		newModel.Parent = game.Workspace
 		newModel:SetPrimaryPartCFrame(tool.Handle.CFrame)
 		newModel.Core.Launch:Play()
-		wait(2)
+		wait(0.5)
 		newModel.Model:Destroy()
 		newModel.Core.Particles:Emit(100)
 		newModel.Core.Explosion:Play()
